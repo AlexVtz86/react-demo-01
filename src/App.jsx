@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { JSDOM } from 'jsdom';
+import { memo, useEffect, useState } from 'react';
 
 // Simulate the browser environment
 const dom = new JSDOM('<!DOCTYPE html><div id="root"></div>');
